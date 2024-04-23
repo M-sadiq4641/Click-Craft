@@ -1,0 +1,183 @@
+.text-xs {
+  font-size: 12px!important;
+  line-height: 16px!important;
+}
+
+.text-sm {
+  font-size: 14px!important;
+  line-height: 20px!important;
+}
+
+.text-md {
+  font-size: 16px!important;
+  line-height: 24px!important;
+}
+
+.text-lg {
+  font-size: 18px!important;
+  line-height: 28px!important;
+}
+
+.text-xl {
+  font-size: 20px!important;
+  line-height: 28px!important;
+}
+
+.text-2xl {
+  font-size: 24px!important;
+  line-height: 32px!important;
+}
+
+.text-3xl {
+  font-size: 30px!important;
+  line-height: 36px!important;
+}
+
+.text-4xl {
+  font-size: 36px!important;
+  line-height: 40px!important;
+}
+
+.text-5xl {
+  font-size: 48px!important;
+}
+
+.text-6xl {
+  font-size: 60px!important;
+}
+
+.text-7xl {
+  font-size: 72px!important;
+}
+
+.text-8xl {
+  font-size: 96px!important;
+}
+
+.text-9xl {
+  font-size: 128px!important;
+}
+
+/* font weidth */
+
+.font-thin {
+  font-weight: 100!important;
+}
+.font-extralight {
+  font-weight: 200!important;
+}
+.font-light {
+  font-weight: 300!important;
+}
+.font-normal {
+  font-weight: 400!important;
+}
+.font-medium {
+  font-weight: 500!important;
+}
+.font-semibold {
+  font-weight: 600!important;
+}
+.font-bold {
+  font-weight: 700!important;
+}
+.font-extrabold {
+  font-weight: 800v;
+}
+.font-black {
+  font-weight: 900!important;
+}
+
+/* font ends here  */
+
+*{
+  font-family: "Roboto", sans-serif !important;
+  background-color: #010314!important;
+  color: white!important;
+}
+
+.text-purple{
+  color: #865BFF!important;
+}
+
+.text-grey{
+  color: #77798F!important;
+}
+
+.text-purple-gr {
+  background: -webkit-linear-gradient(94.85deg, #627fff 8.51%, #865bff 94.21%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.button-purple{
+  box-shadow: 0px 0px 5px 2px #7644ff!important;
+border: transparent;
+border-radius: 40px!important;
+}
+
+.border-hover-purple:hover{
+  box-shadow: 0px 0px 5px 2px #7644ff!important;
+border: transparent;
+}
+
+.button-hover-purple:hover{
+  box-shadow: 0px 0px 5px 2px #7644ff!important;
+border: transparent;
+border-radius: 40px!important;
+}
+
+.button-purple{
+  box-shadow: 0px 0px 5px 2px #7644ff!important;
+border: transparent;
+border-radius: 40px!important;
+}
+
+.button-grey{
+  border: 1px solid #2A2B3A!important;
+  border-radius: 40px!important;
+  background-color: transparent!important;
+}
+
+.button-hover-grey:hover{
+  border: 1px solid #2A2B3A!important;
+  border-radius: 40px!important;
+  background-color: transparent!important;
+  box-shadow: 0px 0px 0px 0px transparent !important;
+}
+
+.hover-purple:hover{
+  color: #627fff!important;
+  font-weight: 700;
+}
+
+/* hero section  */
+
+.hero-container{
+  background-image: url(/public/images/click-hero-bg.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 1200px;
+  min-height: 99vh;
+
+  @media (max-width:1300px) {
+    background-size: 90%;
+  }
+}
+
+.hero-h1{
+  @media (max-width:992px) {
+    font-size: 50px!important;
+  }
+
+  @media (max-width:768px) {
+    font-size: 35px!important;
+  }
+}
+
+.hero-p{
+  @media (max-width:768px) {
+    font-size: 14px!important;
+    text-wrap: balance;
+  }
+}
