@@ -250,3 +250,17 @@
 }
 
 /* user section  */
+
+/* reachable section  */
+
+.reach-h3{
+  @media (max-width:576px) {
+    font-size: 13px!important;
+  }
+}
+
+.reach-p{
+  @media (max-width:576px) {
+    font-size: 10px!important;
+  }
+}
