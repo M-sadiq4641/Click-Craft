@@ -1,107 +1,107 @@
 .text-xs {
-  font-size: 12px!important;
-  line-height: 16px!important;
+  font-size: 12px !important;
+  line-height: 16px !important;
 }
 
 .text-sm {
-  font-size: 14px!important;
-  line-height: 20px!important;
+  font-size: 14px !important;
+  line-height: 20px !important;
 }
 
 .text-md {
-  font-size: 16px!important;
-  line-height: 24px!important;
+  font-size: 16px !important;
+  line-height: 24px !important;
 }
 
 .text-lg {
-  font-size: 18px!important;
-  line-height: 28px!important;
+  font-size: 18px !important;
+  line-height: 28px !important;
 }
 
 .text-xl {
-  font-size: 20px!important;
-  line-height: 28px!important;
+  font-size: 20px !important;
+  line-height: 28px !important;
 }
 
 .text-2xl {
-  font-size: 24px!important;
-  line-height: 32px!important;
+  font-size: 24px !important;
+  line-height: 32px !important;
 }
 
 .text-3xl {
-  font-size: 30px!important;
-  line-height: 36px!important;
+  font-size: 30px !important;
+  line-height: 36px !important;
 }
 
 .text-4xl {
-  font-size: 36px!important;
-  line-height: 40px!important;
+  font-size: 36px !important;
+  line-height: 40px !important;
 }
 
 .text-5xl {
-  font-size: 48px!important;
+  font-size: 48px !important;
 }
 
 .text-6xl {
-  font-size: 60px!important;
+  font-size: 60px !important;
 }
 
 .text-7xl {
-  font-size: 72px!important;
+  font-size: 72px !important;
 }
 
 .text-8xl {
-  font-size: 96px!important;
+  font-size: 96px !important;
 }
 
 .text-9xl {
-  font-size: 128px!important;
+  font-size: 128px !important;
 }
 
 /* font weidth */
 
 .font-thin {
-  font-weight: 100!important;
+  font-weight: 100 !important;
 }
 .font-extralight {
-  font-weight: 200!important;
+  font-weight: 200 !important;
 }
 .font-light {
-  font-weight: 300!important;
+  font-weight: 300 !important;
 }
 .font-normal {
-  font-weight: 400!important;
+  font-weight: 400 !important;
 }
 .font-medium {
-  font-weight: 500!important;
+  font-weight: 500 !important;
 }
 .font-semibold {
-  font-weight: 600!important;
+  font-weight: 600 !important;
 }
 .font-bold {
-  font-weight: 700!important;
+  font-weight: 700 !important;
 }
 .font-extrabold {
   font-weight: 800v;
 }
 .font-black {
-  font-weight: 900!important;
+  font-weight: 900 !important;
 }
 
 /* font ends here  */
 
-*{
+* {
   font-family: "Roboto", sans-serif !important;
-  background-color: #010314!important;
-  color: white!important;
+  background-color: #010314 !important;
+  color: rgb(197, 196, 196) !important;
 }
 
-.text-purple{
-  color: #865BFF!important;
+.text-purple {
+  color: #865bff !important;
 }
 
-.text-grey{
-  color: #77798F!important;
+.text-grey {
+  color: #77798f !important;
 }
 
 .text-purple-gr {
@@ -110,74 +110,126 @@
   -webkit-text-fill-color: transparent;
 }
 
-.button-purple{
-  box-shadow: 0px 0px 5px 2px #7644ff!important;
-border: transparent;
-border-radius: 40px!important;
+.button-purple {
+  box-shadow: 0px 0px 5px 2px #7644ff !important;
+  border: transparent;
+  border-radius: 40px !important;
 }
 
-.border-hover-purple:hover{
-  box-shadow: 0px 0px 5px 2px #7644ff!important;
-border: transparent;
+.border-hover-purple:hover {
+  box-shadow: 0px 0px 5px 2px #7644ff !important;
+  border: transparent;
 }
 
-.button-hover-purple:hover{
-  box-shadow: 0px 0px 5px 2px #7644ff!important;
-border: transparent;
-border-radius: 40px!important;
+.border-purple {
+  box-shadow: 1px 10px 90px 2px #7644ff4b !important;
+  border: transparent;
+  border-top: 1px solid #664dff;
+  border-bottom: 2px solid #664dff;
 }
 
-.button-purple{
-  box-shadow: 0px 0px 5px 2px #7644ff!important;
-border: transparent;
-border-radius: 40px!important;
+.button-hover-purple:hover {
+  box-shadow: 0px 0px 5px 2px #7644ff !important;
+  border: transparent;
+  border-radius: 40px !important;
 }
 
-.button-grey{
-  border: 1px solid #2A2B3A!important;
-  border-radius: 40px!important;
-  background-color: transparent!important;
+.button-purple {
+  box-shadow: 0px 0px 5px 2px #7644ff !important;
+  border: transparent;
+  border-radius: 40px !important;
 }
 
-.button-hover-grey:hover{
-  border: 1px solid #2A2B3A!important;
-  border-radius: 40px!important;
-  background-color: transparent!important;
+.button-grey {
+  border: 1px solid #2a2b3a !important;
+  border-radius: 40px !important;
+  background-color: transparent !important;
+}
+
+.button-hover-grey:hover {
+  border: 1px solid #2a2b3a !important;
+  border-radius: 40px !important;
+  background-color: transparent !important;
   box-shadow: 0px 0px 0px 0px transparent !important;
 }
 
-.hover-purple:hover{
-  color: #627fff!important;
+.hover-purple:hover {
+  color: #627fff !important;
   font-weight: 700;
+}
+
+.word-spacing {
+  word-spacing: 0.5em;
 }
 
 /* hero section  */
 
-.hero-container{
-  background-image: url(/public/images/click-hero-bg.png);
+.hero-container {
+  background-image: url(/images/click-hero-bg.png);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: 1200px;
   min-height: 99vh;
 
-  @media (max-width:1300px) {
+  @media (max-width: 1300px) {
     background-size: 90%;
   }
 }
 
-.hero-h1{
-  @media (max-width:992px) {
-    font-size: 50px!important;
+.hero-h1 {
+  @media (max-width: 992px) {
+    font-size: 50px !important;
   }
 
-  @media (max-width:768px) {
-    font-size: 35px!important;
+  @media (max-width: 768px) {
+    font-size: 35px !important;
   }
 }
 
-.hero-p{
-  @media (max-width:768px) {
-    font-size: 14px!important;
+.hero-p {
+  @media (max-width: 768px) {
+    font-size: 14px !important;
     text-wrap: balance;
+  }
+}
+
+/* process section  */
+
+.process-p {
+  width: 35%;
+  background-color: #627fff !important;
+  word-break: break-all;
+  @media (max-width: 992px) {
+    width: 100%;
+  }
+}
+
+.process-h2{
+  @media (max-width:576px) {
+    font-size: 18px!important;
+  }
+}
+
+.process-text {
+  width: 85% !important;
+
+  @media (max-width: 992px) {
+    width: 100%!important;
+   
+  }
+
+  @media (max-width:576px) {
+ font-size: 14px!important;
+    line-height: normal;
+  }
+}
+
+.process-img {
+  width: 550px !important;
+}
+
+.process-button {
+  @media (max-width: 576px) {
+    font-size: 12px !important;
   }
 }
