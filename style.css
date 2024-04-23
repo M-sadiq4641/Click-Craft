@@ -128,6 +128,13 @@
   border-bottom: 2px solid #664dff;
 }
 
+.border-purple-two {
+  box-shadow: 1px 1px 30px 1px #7644ff4b !important;
+  border: transparent;
+  border-top: 1px solid #664dff;
+  border-bottom: 2px solid #664dff;
+}
+
 .button-hover-purple:hover {
   box-shadow: 0px 0px 5px 2px #7644ff !important;
   border: transparent;
@@ -233,3 +240,13 @@
     font-size: 12px !important;
   }
 }
+
+/* portfolio section  */
+
+.portfolio-h2{
+  @media (max-width:576px) {
+    font-size: 30px!important;
+  }
+}
+
+/* user section  */
